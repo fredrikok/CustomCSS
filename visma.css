@@ -1,7 +1,7 @@
 
 body #main-container {
-    background: url(/CustomCSS/favico.png) 0 center no-repeat!important;
-    overflow: hidden;
+    background: url(/CustomCSS/glupmann.png) 0 center no-repeat!important;
+    overflow: hidden!important;
 }
 
 .form-box {
