@@ -1,7 +1,11 @@
 
-body #main-container {
-    background: url(/CustomCSS/glupmann.png) 0 center no-repeat!important;
+body{
     overflow: hidden!important;
+}
+
+body #main-container {
+    background: url(/CustomCSS/glupmann.png) center center no-repeat !important;
+    background-size: cover !important;
 }
 
 .form-box {
