@@ -16,3 +16,12 @@ body #main-container {
 .form-content {
     height: 100vh;
 }
+
+
+
+
+/* Footer fjerner fordi den passer ikke */
+
+.footer-container{
+    display: none!important;
+}
