@@ -3,25 +3,75 @@ body{
     overflow: hidden!important;
 }
 
+/* Bakgrunn */
+
 body #main-container {
     background: url(/CustomCSS/glupmann.png) center center no-repeat !important;
     background-size: cover !important;
 }
 
+/* Form styling */
 .form-box {
     padding-top: 0%!important;
     margin: 0!important;
+}
+
+.form-box.form-box-login {
+    max-width: 600px!important;
+    width: 600px!important;
 }
 
 .form-content {
     height: 100vh;
 }
 
+#page-login-connect > form.form-horizontal.form-connect-login.margin-top-10 > div.form-group.form-group-login.form-group-login-button{
+ display: none;
+}   
 
+/* Logo */
+
+#application-logo-container{
+    background-image: url(./Glup-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    min-width: 300px;
+    margin-bottom: 5rem;
+
+}
+
+#application-logo-container > img{
+    display: none;
+}
+
+#application-header-container{
+    display: none;
+}
+
+
+input.label-animated:focus~label, input.label-animated:not(:placeholder-shown)~label, input.label-animated:valid~label {
+    font-size: 18px!important;
+    top: -28px!important;
+    background-color: #FFF;
+    color: #000000!important;
+    left: -6px;
+}
 
 
 /* Footer fjerner fordi den passer ikke */
 
 .footer-container{
     display: none!important;
+}
+
+
+
+
+/* Mobil */
+
+@media (max-width: 767px) {
+.form-box {
+    width: 100%!important;
+}
 }
