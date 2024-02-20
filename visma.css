@@ -26,7 +26,7 @@ body #main-container {
 }
 
 #page-login-connect > form.form-horizontal.form-connect-login.margin-top-10 > div.form-group.form-group-login.form-group-login-button{
- display: none;
+ /* display: none; */
 }   
 
 /* Logo */
