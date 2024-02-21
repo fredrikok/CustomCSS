@@ -11,6 +11,13 @@ body #main-container {
 }
 
 /* Form styling */
+
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .form-box {
     padding-top: 0%!important;
     margin: 0!important;
