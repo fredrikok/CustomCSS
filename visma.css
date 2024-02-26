@@ -23,6 +23,15 @@ body #main-container {
 
 /* Form styling */
 
+#form-login-user-password > div.form-group.form-group-login-user.margin-top-15 > div > div:nth-child(2) > div > div.col-xs-8.margin-top-15.padding-left.hidden-xs.visible-sm.visible-md.visible-lg > span > p{
+    margin-bottom: 4rem;
+
+}
+
+#form-connect-login-error-username > div > div{
+    margin-bottom: 1rem;
+}
+
 .col-sm-offset-1 {
     margin-left: 4%!important;
 }
