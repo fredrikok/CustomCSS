@@ -6,11 +6,26 @@ body{
 /* Bakgrunn */
 
 body #main-container {
-    background: url(/CustomCSS/glupmann.png) center center no-repeat !important;
-    background-size: cover !important;
+    /* background: url(/CustomCSS/glupmann.png) center center no-repeat !important;
+    background-size: cover !important; */
+    display: flex;
 }
 
+
+#BackgroundDiv{
+    background-position: center;
+    width: 100%;
+    background-image: url(/CustomCSS/glupmann.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 /* Form styling */
+
+.col-sm-offset-1 {
+    margin-left: 4%!important;
+}
 
 .login-form-container{
     display: flex;
@@ -32,6 +47,11 @@ body #main-container {
     height: 100vh;
 }
 
+#GlupHjelpBox{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 #page-login-connect > form.form-horizontal.form-connect-login.margin-top-10 > div.form-group.form-group-login.form-group-login-button{
  /* display: none; */
 }   
@@ -43,7 +63,7 @@ body #main-container {
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 150px;
-    min-width: 300px;
+    max-width: 300px;
     margin-bottom: 5rem;
 
 }

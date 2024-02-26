@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="x-ua-compatible" content="IE=Edge"/>
     <title>GlupSandbox</title>
-        <link rel="stylesheet" href="./visma.css">
 
         <link rel="icon" type="image/x-icon" href="https://fredrikok.github.io/CustomCSS/favico.png"/>
         <link rel="shortcut icon" type="image/x-icon" href="https://fredrikok.github.io/CustomCSS/favico.png"/>
@@ -59,7 +58,7 @@
             <link rel="stylesheet" href="/dist/bootstrap.min.css" />
             <link rel="stylesheet" href="/dist/nc.min.css" />
             <link rel="stylesheet" href="/dist/connect.min.css?v=E-AvyrHcoA0tOp_d-eX-jUQaMGMup4gTuzf8PuYHRWk" />
-            <link rel="stylesheet" href="https://fredrikok.github.io/CustomCSS/visma.css" />
+            <link rel="stylesheet" href="./visma.css" />
 </head>
 <body>
         <div id="main-container">
@@ -136,14 +135,16 @@
     <input type="hidden" id="ChallengeByEmail" data-val="true" data-val-required="The ChallengeByEmail field is required." name="ChallengeByEmail" value="False" />
     
 <input type="hidden" id="ClientId" name="ClientId" value="GLUP20" />
-<input type="hidden" id="ReturnUrl" name="ReturnUrl" value="/connect/authorize/callback?client_id=GLUP20&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fworkplace.efaktor.no%2Fglupsandbox%2Fadmin%2Foauth2callback.php&amp;state=%2Fauth%2Foauth2%2Flogin.php%3Fwantsurl%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252F%26sesskey%3DzYTU1oWrVl%26id%3D1&amp;scope=openid%20profile%20email" />
-<input name="__RequestVerificationToken" type="hidden" value="CfDJ8OTXvAlM3itCuu3ZzFIJ-mMTg6zrJpltQbPPzQLFBc2NtSga0yobEXQZUVESHzAxVPeVZL_AZVt8CEYgZE3ZqyC9IfMXP_2J0OuqGRiw7Se3sybVtk03XmIRVNyW9uejykw6IUs-d1mdrUpqvTNhCEk" /></form>
+<input type="hidden" id="ReturnUrl" name="ReturnUrl" value="/connect/authorize/callback?client_id=GLUP20&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fworkplace.efaktor.no%2Fglupsandbox%2Fadmin%2Foauth2callback.php&amp;state=%2Fauth%2Foauth2%2Flogin.php%3Fwantsurl%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252F%26sesskey%3DFitOyuBpxr%26id%3D1&amp;scope=openid%20profile%20email" />
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8OTXvAlM3itCuu3ZzFIJ-mOkeNTHro3mwoKyhVaYnp0xsyrZ_HZeEH1iYmamHYLCYkfrXxmkVyKUYxkN-6JvmRWq0pcNuCRqbJlTfzJRTgnhg2FeKudnk8gvFkVji_pRP0vIOHMOI1NWT630GnrDo9Q" /></form>
     <form class="form-horizontal form-connect-login margin-top-10" action="/" method="post">
-        
         <div class="form-group theme-economic theme-header-container">
             <h3 class="theme-header">Sign in with</h3>
             <span class="theme-subheader">Visma Connect to continue to</span>
         </div>
+
+        
+
 
         <div class="form-group form-error-container no-left-padding-xs padding-left-sm padding-left-md padding-left-lg no-bottom-margin hidden" id="form-connect-login-error-username">
             <div class="col-xs-12 message-element">
@@ -164,26 +165,9 @@
                 </div>
             </div>
         </div>
-
         <div class="form-group form-group-login form-group-login-button">
             <div class="col-sm-offset-1 col-sm-10 no-side-padding">
                 <input type="submit" class="btn btn-primary btn-block form-login-button-email" id="LoginButton" value="Next" formnovalidate />
-            </div>
-        </div>
-
-
-        
-
-        <div class="form-group form-group-login-password margin-top">
-            <div class="col-sm-offset-1 col-sm-10 no-side-padding">
-                <input type="email" class="hidden" autocomplete="username" id="Username" name="Username" value="fredrik.olsen@visma.com">
-                <div class="input-login-animated">
-                    <input type="password" class="form-control label-animated input-password" autocomplete="current-password" required="" spellcheck="false" tabindex="0" autocapitalize="none" id="Password" name="Password" data-original-title="" title="">
-                    <label class="label-animated">Password</label>
-                    <div id="login-button-toggle-password">
-                        <span id="login-icon-toggle-password" class="vismaicon vismaicon-preview disabled"></span>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="form-group form-group-rememberusername">
@@ -201,7 +185,7 @@
         </div>
         <div class="form-group form-group-login-links">
             <div class="col-sm-offset-1 col-sm-10 no-side-padding link-container">
-                <a class="pull-right pwdless-login-link" href="/login/passwordless?ClientId=GLUP20&amp;ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DGLUP20%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252Fadmin%252Foauth2callback.php%26state%3D%252Fauth%252Foauth2%252Flogin.php%253Fwantsurl%253Dhttps%25253A%25252F%25252Fworkplace.efaktor.no%25252Fglupsandbox%25252F%2526sesskey%253DzYTU1oWrVl%2526id%253D1%26scope%3Dopenid%2520profile%2520email" id="PwdlessLoginButton">Sign in with security key or biometrics</a>
+                <a class="pull-right pwdless-login-link" href="/login/passwordless?ClientId=GLUP20&amp;ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DGLUP20%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252Fadmin%252Foauth2callback.php%26state%3D%252Fauth%252Foauth2%252Flogin.php%253Fwantsurl%253Dhttps%25253A%25252F%25252Fworkplace.efaktor.no%25252Fglupsandbox%25252F%2526sesskey%253DFitOyuBpxr%2526id%253D1%26scope%3Dopenid%2520profile%2520email" id="PwdlessLoginButton">Sign in with security key or biometrics</a>
             </div>
 
 
@@ -212,11 +196,13 @@
         <input type="hidden" value="False" data-val="true" data-val-required="The IsPlatformAuthenticatorAvailable field is required." id="IsPlatformAuthenticatorAvailable" name="IsPlatformAuthenticatorAvailable" />
         
 <input type="hidden" id="ClientId" name="ClientId" value="GLUP20" />
-<input type="hidden" id="ReturnUrl" name="ReturnUrl" value="/connect/authorize/callback?client_id=GLUP20&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fworkplace.efaktor.no%2Fglupsandbox%2Fadmin%2Foauth2callback.php&amp;state=%2Fauth%2Foauth2%2Flogin.php%3Fwantsurl%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252F%26sesskey%3DzYTU1oWrVl%26id%3D1&amp;scope=openid%20profile%20email" />
-    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8OTXvAlM3itCuu3ZzFIJ-mMTg6zrJpltQbPPzQLFBc2NtSga0yobEXQZUVESHzAxVPeVZL_AZVt8CEYgZE3ZqyC9IfMXP_2J0OuqGRiw7Se3sybVtk03XmIRVNyW9uejykw6IUs-d1mdrUpqvTNhCEk" /><input name="RememberUsername" type="hidden" value="false"></form>
+<input type="hidden" id="ReturnUrl" name="ReturnUrl" value="/connect/authorize/callback?client_id=GLUP20&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fworkplace.efaktor.no%2Fglupsandbox%2Fadmin%2Foauth2callback.php&amp;state=%2Fauth%2Foauth2%2Flogin.php%3Fwantsurl%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252F%26sesskey%3DFitOyuBpxr%26id%3D1&amp;scope=openid%20profile%20email" />
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8OTXvAlM3itCuu3ZzFIJ-mOkeNTHro3mwoKyhVaYnp0xsyrZ_HZeEH1iYmamHYLCYkfrXxmkVyKUYxkN-6JvmRWq0pcNuCRqbJlTfzJRTgnhg2FeKudnk8gvFkVji_pRP0vIOHMOI1NWT630GnrDo9Q" /><input name="RememberUsername" type="hidden" value="false"></form>
 </div>
 
     <script src='https://www.google.com/recaptcha/api.js?hl=en' async defer></script>
+
+
 
             <div class="form-footer external-providers">
                     <div class="circleContainer">
@@ -241,25 +227,28 @@
         <input id="authentication-scheme-feide" type="hidden" value="FeideOIDC" readonly name="AuthenticationScheme" />
         <input id="provider-name-feide" type="hidden" value="Feide" readonly name="ProviderName" />
         <input id="action-feide" type="hidden" value="Login" readonly data-val="true" data-val-required="The Action field is required." name="Action" />
-        <input id="return-url-feide" type="hidden" readonly name="ReturnUrl" value="/connect/authorize/callback?client_id=GLUP20&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fworkplace.efaktor.no%2Fglupsandbox%2Fadmin%2Foauth2callback.php&amp;state=%2Fauth%2Foauth2%2Flogin.php%3Fwantsurl%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252F%26sesskey%3DzYTU1oWrVl%26id%3D1&amp;scope=openid%20profile%20email" />
+        <input id="return-url-feide" type="hidden" readonly name="ReturnUrl" value="/connect/authorize/callback?client_id=GLUP20&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fworkplace.efaktor.no%2Fglupsandbox%2Fadmin%2Foauth2callback.php&amp;state=%2Fauth%2Foauth2%2Flogin.php%3Fwantsurl%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252F%26sesskey%3DFitOyuBpxr%26id%3D1&amp;scope=openid%20profile%20email" />
         <input id="client-id-feide" type="hidden" readonly name="ClientId" value="GLUP20" />
         <input id="remember-username-feide" type="hidden" readonly data-val="true" data-val-required="The RememberUsername field is required." name="RememberUsername" value="False" />
         <input id="login-hint-feide" type="hidden" readonly name="Username" value="" />
         <input id="should-trigger-select-account-feide" type="hidden" readonly data-val="true" data-val-required="The ShouldTriggerSelectAccount field is required." name="ShouldTriggerSelectAccount" value="False" />
     </div>
-    
-<input name="__RequestVerificationToken" type="hidden" value="CfDJ8OTXvAlM3itCuu3ZzFIJ-mMTg6zrJpltQbPPzQLFBc2NtSga0yobEXQZUVESHzAxVPeVZL_AZVt8CEYgZE3ZqyC9IfMXP_2J0OuqGRiw7Se3sybVtk03XmIRVNyW9uejykw6IUs-d1mdrUpqvTNhCEk" /></form>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8OTXvAlM3itCuu3ZzFIJ-mOkeNTHro3mwoKyhVaYnp0xsyrZ_HZeEH1iYmamHYLCYkfrXxmkVyKUYxkN-6JvmRWq0pcNuCRqbJlTfzJRTgnhg2FeKudnk8gvFkVji_pRP0vIOHMOI1NWT630GnrDo9Q" /></form>
                 
             </div>
-            <span class="hidden" id="encoded-return-url">%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DGLUP20%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252Fadmin%252Foauth2callback.php%26state%3D%252Fauth%252Foauth2%252Flogin.php%253Fwantsurl%253Dhttps%25253A%25252F%25252Fworkplace.efaktor.no%25252Fglupsandbox%25252F%2526sesskey%253DzYTU1oWrVl%2526id%253D1%26scope%3Dopenid%2520profile%2520email</span>
+            <span class="hidden" id="encoded-return-url">%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DGLUP20%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252Fadmin%252Foauth2callback.php%26state%3D%252Fauth%252Foauth2%252Flogin.php%253Fwantsurl%253Dhttps%25253A%25252F%25252Fworkplace.efaktor.no%25252Fglupsandbox%25252F%2526sesskey%253DFitOyuBpxr%2526id%253D1%26scope%3Dopenid%2520profile%2520email</span>
             <span class="hidden" id="single-external-provider-redirect">False</span>
     </div>
     <div class="form-footer">
         <img class="visma-logo" src="/img/visma-logo.svg" alt="">
     </div>
 </div>
+
+
         </div>
         <div class="clear"></div>
+
+
 
 <footer class="footer-container">
     <div class="footer-bg"></div>
@@ -284,7 +273,7 @@
         <ul class="footer-list">
 
             <li>
-                <a href="/info?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DGLUP20%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252Fadmin%252Foauth2callback.php%26state%3D%252Fauth%252Foauth2%252Flogin.php%253Fwantsurl%253Dhttps%25253A%25252F%25252Fworkplace.efaktor.no%25252Fglupsandbox%25252F%2526sesskey%253DzYTU1oWrVl%2526id%253D1%26scope%3Dopenid%2520profile%2520email">About cookies</a>
+                <a href="/info?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DGLUP20%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fworkplace.efaktor.no%252Fglupsandbox%252Fadmin%252Foauth2callback.php%26state%3D%252Fauth%252Foauth2%252Flogin.php%253Fwantsurl%253Dhttps%25253A%25252F%25252Fworkplace.efaktor.no%25252Fglupsandbox%25252F%2526sesskey%253DFitOyuBpxr%2526id%253D1%26scope%3Dopenid%2520profile%2520email">About cookies</a>
             </li>
 
         </ul>
@@ -294,13 +283,12 @@
     <span class="hidden" id="is-device-mobile">false</span>
         <script type="text/javascript" src="/dist/lib/whatismybrowser.min.js?v=woo0CTPM-y6R0FCA3d0eyFya0_E_IZQGvVnnMR38JA0"></script>
         <script type="text/javascript" src="/dist/connect.min.js?v=kZsXcr0EhXliH-ROJ0P9OWCNivOGKpSjFzYoFbaql-4"></script>
+            <script type="text/javascript" src="./extraJs.js"></script>
 
     
         <script src="/dist/pages/login.min.js?v=XOv2MRJbquI7m8kXGbCKo--2dzwWVrPSg02qTfODEos"></script>
         <script src="/dist/pages/ios-ui-fix.min.js?v=fwJvcCRakXAu6xGKibog6yuk-lA759r21CKW0U2qLjo"></script>
         <script src="/dist/pages/passwordless.min.js?v=gTlpxL_zpmmOkvR38xv_IpCyvkpGpsdk92LMMdP2Zbo"></script>
-        <script type="text/javascript" src="./extraJs.js"></script>
-
 
 
 <div id="statusPageWidget">

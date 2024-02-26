@@ -17,23 +17,15 @@ var parentNode = referenceNode.parentNode;
 parentNode.insertBefore(newDiv, referenceNode);
 
 document.addEventListener("DOMContentLoaded", function () {
-  var referenceElement = document.querySelector(
-    ".form-group.form-group-login.form-group-login-button"
-  );
+  var backgroundDiv = document.createElement("div");
 
-  var newBlock = document.createElement("div");
-  newBlock.innerHTML = `
-        <div class="col-sm-offset-1 col-sm-10 no-side-padding">
-            <p></p>
-        </div>
-    `;
+  backgroundDiv.id = "BackgroundDiv";
 
-  if (referenceElement && referenceElement.nextElementSibling) {
-    referenceElement.parentNode.insertBefore(
-      newBlock,
-      referenceElement.nextElementSibling
-    );
-  } else if (referenceElement) {
-    referenceElement.parentNode.appendChild(newBlock);
+  var mainContainer = document.getElementById("main-container");
+
+  if (mainContainer) {
+    mainContainer.appendChild(backgroundDiv);
+  } else {
+    console.log("main-container not found.");
   }
 });
