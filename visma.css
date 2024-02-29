@@ -7,15 +7,13 @@ body{
 /* Bakgrunn */
 
 body #main-container {
-    /* background: url(/CustomCSS/glupmann.png) center center no-repeat !important;
-    background-size: cover !important; */
     display: flex;
 }
 
 #BackgroundDiv{
     background-position: center;
     width: 100%;
-    background-image: url(/CustomCSS/glupmann.png);
+    background-image: url(/CustomCSS/orangeman.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -66,6 +64,9 @@ body #main-container {
 #GlupHjelpBox{
     margin-top: 5rem;
     margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .padding-top {
@@ -102,6 +103,8 @@ input.label-animated:focus~label, input.label-animated:not(:placeholder-shown)~l
     color: #000000!important;
     left: -6px;
 }
+
+
 
 .hjelpeBoxP{
     margin-bottom: 0;
