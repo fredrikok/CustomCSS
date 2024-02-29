@@ -45,8 +45,11 @@ body #main-container {
     align-items: flex-start;
 }
 
-#page-login-connect > form.form-horizontal.form-connect-login.margin-top-10 > div.form-group.form-group-login-links{
-    
+
+
+.form-group .link-container{
+    margin-top: 14px!important;
+    margin-bottom: 14px;
 }
 
 .form-box {
@@ -72,9 +75,7 @@ body #main-container {
     padding-top: 45px !important;
 }
 
-#page-login-connect > form.form-horizontal.form-connect-login.margin-top-10 > div.form-group.form-group-login.form-group-login-button{
- /* display: none; */
-}   
+
 
 /* Logo */
 
@@ -116,11 +117,12 @@ input.label-animated:focus~label, input.label-animated:not(:placeholder-shown)~l
     display: none!important;
 }
 
-.form-footer{
-    /* display: none; */
-}
 
 /* Mobil */
+
+#page-login-index > div.form-footer{
+    display: none!important;
+}
 
 @media (max-width: 767px) {
 .form-box {
