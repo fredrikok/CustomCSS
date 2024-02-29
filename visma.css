@@ -12,6 +12,8 @@ body #main-container {
 }
 
 
+
+
 #BackgroundDiv{
     background-position: center;
     width: 100%;
@@ -92,6 +94,10 @@ input.label-animated:focus~label, input.label-animated:not(:placeholder-shown)~l
     background-color: #FFF;
     color: #000000!important;
     left: -6px;
+}
+
+.hjelpeBoxP{
+    margin-bottom: 0;
 }
 
 
