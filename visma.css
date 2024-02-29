@@ -109,7 +109,7 @@ input.label-animated:focus~label, input.label-animated:not(:placeholder-shown)~l
 }
 
 .form-footer{
-    display: none;
+    /* display: none; */
 }
 
 /* Mobil */
