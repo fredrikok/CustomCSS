@@ -64,6 +64,10 @@ body #main-container {
     margin-bottom: 5rem;
 }
 
+.padding-top {
+    padding-top: 45px !important;
+}
+
 #page-login-connect > form.form-horizontal.form-connect-login.margin-top-10 > div.form-group.form-group-login.form-group-login-button{
  /* display: none; */
 }   
