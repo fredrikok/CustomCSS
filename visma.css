@@ -12,9 +12,6 @@ body #main-container {
     display: flex;
 }
 
-
-
-
 #BackgroundDiv{
     background-position: center;
     width: 100%;
@@ -111,18 +108,17 @@ input.label-animated:focus~label, input.label-animated:not(:placeholder-shown)~l
 }
 
 
-/* Footer fjerner fordi den passer ikke */
+/* Footer*/
 
 .footer-container{
+    display: none!important;
+}
+#page-login-index > div.form-footer{
     display: none!important;
 }
 
 
 /* Mobil */
-
-#page-login-index > div.form-footer{
-    display: none!important;
-}
 
 @media (max-width: 767px) {
 .form-box {
