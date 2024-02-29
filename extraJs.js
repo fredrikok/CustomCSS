@@ -14,7 +14,7 @@ var referenceNode = document.querySelector(".form-footer.external-providers");
 
 var parentNode = referenceNode.parentNode;
 
-parentNode.insertBefore(newDiv, referenceNode);
+parentNode.insertAfter(newDiv, referenceNode);
 
 document.addEventListener("DOMContentLoaded", function () {
   var backgroundDiv = document.createElement("div");
