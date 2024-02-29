@@ -10,7 +10,9 @@ newDiv.innerHTML = `
   <a href="https://www.smartskill.no/glup/kom-i-gang" target="_blank" rel="noreferrer">Klikk her for å lese mer om læringsplatformen Glup</a>
 `;
 
-var referenceNode = document.querySelector(".form-footer.external-providers");
+var referenceNode = document.querySelector(
+  "form-horizontal form-external-provider"
+);
 
 var parentNode = referenceNode.parentNode;
 

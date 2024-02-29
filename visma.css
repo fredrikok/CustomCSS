@@ -1,6 +1,7 @@
 
 body{
-    overflow: hidden!important;
+    overflow: hidden!important;    
+    background-color: white;
 }
 
 /* Bakgrunn */
@@ -107,8 +108,9 @@ input.label-animated:focus~label, input.label-animated:not(:placeholder-shown)~l
     display: none!important;
 }
 
-
-
+.form-footer{
+    display: none;
+}
 
 /* Mobil */
 
