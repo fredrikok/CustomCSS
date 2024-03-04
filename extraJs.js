@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
   newDiv.innerHTML = `
     <div class=hjelpeBoxDiv>
         <p class="hjelpeBoxP">Problemer med å logge inn?</p>
-        <a href="https://www.smartskill.no/glup/kom-i-gang" target="_blank" rel="noreferrer">Klikk her for å gå til Glup sitt kunnskapssenter</a>
+        <a href="https://www.smartskill.no/glup/kom-i-gang#sporsmal_og_svar" target="_blank" rel="noreferrer">Klikk her for hjelp</a>
     </div>
       <div class=hjelpeBoxDiv>
         <p class="hjelpeBoxP">Lurer du på hva Glup er?</p>
-        <a href="https://www.smartskill.no/glup/kom-i-gang" target="_blank" rel="noreferrer">Klikk her for å lese mer om læringsplatformen Glup</a>
+        <a href="https://www.smartskill.no/glup" target="_blank" rel="noreferrer">Klikk her for å lese mer om læringsplatformen Glup</a>
     </div>
   `;
 
